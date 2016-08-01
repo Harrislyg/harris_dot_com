@@ -13,26 +13,27 @@ class Weather extends React.Component {
   }
 
   handleSearch (location) {
-    
-    this.setState({isLoading: true})
 
-    openWeatherMap.getTemp(location).then((temp) => {
+    // this.setState({isLoading: true})
+    //
+    // openWeatherMap.getTemp(location).then((temp) => {
+    //   this.setState({
+    //     location: location,
+    //     temp: temp,
+    //     isLoading: false
+    //   })
+    // }, (errorMessage) => {
+    //   this.setState({isLoading: false})
+    //   alert(errorMessage)
+    // })
+    this.setState({isLoading: true})
+    openWeatherMap.getTemp(location, (err, data) => {
       this.setState({
         location: location,
-        temp: temp,
+        temp: data,
         isLoading: false
       })
-    }, (errorMessage) => {
-      this.setState({isLoading: false})
-      alert(errorMessage)
     })
-    // this.setState({isLoading: true})
-    // var temp = openWeatherMap.getTemp(location)
-    // this.setState({
-    //   location: location,
-    //   temp: temp,
-    //   isLoading: false
-    // })
   }
 
   render () {

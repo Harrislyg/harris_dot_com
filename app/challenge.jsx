@@ -10,6 +10,9 @@ var Examples = require('Examples')
 require('style!css!foundation-sites/dist/foundation.min.css')
 $(document).foundation()
 
+//App css
+require('style!css!applicationStyles')
+
 let rootNode = document.getElementById('app')
 ReactDOM.render(
   <Router history={hashHistory}>

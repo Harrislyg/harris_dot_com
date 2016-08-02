@@ -1,24 +1,33 @@
 var React = require('react')
 
-var About = (props) => {
-  return (
-    <div>
-      <h1 className="text-center page-title">About</h1>
-      <p>This is an application built on ReactJS. This is my preview to GA WDI Unit 4 mini project</p>
-      <p>
-        Here are some of the tools I used:
-      </p>
-      <ul>
-        <li>
-          <a href="https://facebook.github.io/react">React</a> -This was the Javascript framework used
-        </li>
-        <li>
-          <a href="http://openweathermap.org">Open Weather Map</a> -I used Open Weather Map to search for weather data by city name
-        </li>
-      </ul>
-    </div>
-
-  )
+class About extends React.Component {
+  render () {
+    return (
+      <section className="success" id="about">
+          <div className="container">
+              <div className="row">
+                  <div className="col-lg-12 text-center">
+                      <h2>About</h2>
+                      <hr className="star-light"></hr>
+                  </div>
+              </div>
+              <div className="row">
+                  <div className="col-lg-4 col-lg-offset-2">
+                      <p>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.</p>
+                  </div>
+                  <div className="col-lg-4">
+                      <p>Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</p>
+                  </div>
+                  <div className="col-lg-8 col-lg-offset-2 text-center">
+                      <a href="#contact" className="btn btn-lg btn-outline">
+                          <i className="fa fa-download"></i> Contact Me
+                      </a>
+                  </div>
+              </div>
+          </div>
+      </section>
+    )
+  }
 }
 
 module.exports = About

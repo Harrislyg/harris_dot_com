@@ -2,48 +2,35 @@ var React = require('react')
 var {Link, IndexLink} = require('react-router')
 
 class Nav extends React.Component {
-  onSearch (e) {
-    e.preventDefault()
-    var location = this.refs.weatherSearch.value
-    var encodedLocation = encodeURIComponent(location)
-    if(location.length > 0) {
-      this.refs.weatherSearch.value = ''
-      window.location.hash = '#/?location='+ encodedLocation
-    }
-  }
   render () {
     return (
-      <div className="top-bar">
-        <div className="top-bar-left">
-          <ul className="dropdown menu">
-            <li className="menu-text">React Weather App</li>
-            <li>
-              <IndexLink to="/" activeClassName="active" activeStyle={{fontWeight: 'bold'}}>Get Weather</IndexLink>
+      <nav id="mainNav" className="navbar navbar-default navbar-fixed-top navbar-custom">
+          <div className="container">
+              <div className="navbar-header page-scroll">
 
-            </li>
-            <li>
-              <Link to="/about" activeClassName="active" activeStyle={{fontWeight: 'bold'}}>About</Link>
-            </li>
-            <li>
-              <Link to="/examples" activeClassName="active" activeStyle={{fontWeight: 'bold'}}>Examples</Link>
-            </li>
-          </ul>
-        </div>
-        <div className="top-bar-right">
-          <form onSubmit={this.onSearch.bind(this)}>
-            <ul className="menu">
-              <li>
-                <input type="search" ref="weatherSearch" placeholder="Search Weather by city"/>
-              </li>
-              <li>
-                <input type="submit" className="button" value="Get Weather"/>
-              </li>
+                  <button type="button" className="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                      <span className="sr-only">Toggle navigation</span> Menu <i className="fa fa-bars"></i>
+                  </button>
+                  <a className="navbar-brand" href="#">HARRIS.L.YG</a>
+              </div>
+              <div className="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                  <ul className="nav navbar-nav navbar-right">
 
-            </ul>
-          </form>
-        </div>
+                      <li className="page-scroll">
 
-      </div>
+                          <a href="#portfolio">Portfolio</a>
+                      </li>
+                      <li className="page-scroll">
+
+                          <a href="#about">About</a>
+                      </li>
+                      <li className="page-scroll">
+                          <a href="#contact">Contact</a>
+                      </li>
+                  </ul>
+              </div>
+          </div>
+      </nav>
     )
   }
 }

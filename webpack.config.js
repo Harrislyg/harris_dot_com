@@ -23,13 +23,16 @@ module.exports = {
     alias: {
       Main: 'app/components/Main.jsx',
       Nav: 'app/components/Nav.jsx',
-      Weather: 'app/components/Weather.jsx',
+      Nav2: 'app/components/Nav2.jsx',
+      Header: 'app/components/Header.jsx',
+      Portfolio: 'app/components/Portfolio.jsx',
       About: 'app/components/About.jsx',
-      Examples: 'app/components/Examples.jsx',
-      WeatherForm: 'app/components/WeatherForm.jsx',
-      WeatherMessage: 'app/components/WeatherMessage.jsx',
-      openWeatherMap: 'app/api/openWeatherMap.jsx',
-      ErrorModal: 'app/components/ErrorModal.jsx',
+      Contact: 'app/components/Contact.jsx',
+      Footer: 'app/components/Footer.jsx',
+      Modal: 'app/components/Modal.jsx',
+      apiDotMe: 'app/api/apiDotMe.jsx',
+
+
       applicationStyles: 'app/styles/challenge.css'
 
     },

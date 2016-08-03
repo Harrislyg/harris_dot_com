@@ -11,6 +11,11 @@
         $('html, body').stop().animate({
             scrollTop: ($($anchor.attr('href')).offset().top - 50)
         }, 1250, 'easeInOutExpo')
+        $('#mainNav').affix({
+            offset: {
+                top: 100
+            }
+        })
         event.preventDefault()
     });
 
@@ -26,11 +31,12 @@
     });
 
     // Offset for Main Navigation
-    $('#mainNav').affix({
-        offset: {
-            top: 100
-        }
-    })
+      $('#mainNav').affix({
+          offset: {
+              top: 100
+          }
+      })
+
 
     // Floating label headings for the contact form
     $(function() {

@@ -12,11 +12,9 @@ module.exports = {
       })
   },
   getAllProjects (callBack) {
-    $.get('https://arcane-spire-32719.herokuapp.com/')
+    $.get('https://arcane-spire-32719.herokuapp.com/projects')
       .done(function (data) {
-        data.forEach(function (datum) {
-          callBack(null, datum)
-        })
+        callBack(null, data)
       }).fail(function (jqXHR, textStatus, errorThrown) {
         console.log('error', errorThrown)
       })

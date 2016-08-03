@@ -30,6 +30,8 @@ module.exports = {
       Contact: 'app/components/Contact.jsx',
       Footer: 'app/components/Footer.jsx',
       Modal: 'app/components/Modal.jsx',
+      Modala: 'app/components/Modala.jsx',
+
       apiDotMe: 'app/api/apiDotMe.jsx',
 
 

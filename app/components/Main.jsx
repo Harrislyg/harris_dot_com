@@ -13,9 +13,7 @@ class Main extends React.Component {
       <div>
         <div >
           {this.props.children}
-            <div>
-              <Modal/>
-            </div>
+
         </div>
       </div>
     )

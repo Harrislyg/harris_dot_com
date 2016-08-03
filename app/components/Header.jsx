@@ -4,28 +4,11 @@ var Nav2 = require('Nav2')
 
 
 class Header extends React.Component {
-  constructor () {
-    super()
-    this.state = {
-      name: null
-    }
-  }
-  getData () {
-    apiDotMe.getAllData((err, data) => {
-      console.log(data)
-      this.setState({
-          name: data
-        })
-    })
-  }
-  componentWillMount () {
-      this.getData()
-      console.log('WillMount')
-  }
+
   render () {
     return (
-      <div>
-        <Nav2/>
+    <div>
+      <Nav2/>
       <header>
           <div className="container">
               <div className="row">
@@ -39,7 +22,7 @@ class Header extends React.Component {
               </div>
           </div>
       </header>
-      </div>
+    </div>
     )
   }
 }

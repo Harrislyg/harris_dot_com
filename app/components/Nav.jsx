@@ -2,6 +2,7 @@ var React = require('react')
 var {Link, IndexLink} = require('react-router')
 
 class Nav extends React.Component {
+
   render () {
     return (
       <nav id="mainNav" className="navbar navbar-default navbar-fixed-top navbar-custom">
@@ -17,7 +18,6 @@ class Nav extends React.Component {
                   <ul className="nav navbar-nav navbar-right">
 
                       <li className="page-scroll">
-
                           <a href="#portfolio">Portfolio</a>
                       </li>
                       <li className="page-scroll">

@@ -21,15 +21,9 @@ class Nav2 extends React.Component {
                   <ul className="nav navbar-nav navbar-right">
 
                       <li>
-                        <a href="#portfolio">Portfolio</a>
+                        <Link to="/portfolio">Portfolio</Link>
                       </li>
-                      <li style={containerStyle} className="page-scroll">
 
-                          <a href="#about">About</a>
-                      </li>
-                      <li style={containerStyle} className="page-scroll">
-                          <a href="#contact">Contact</a>
-                      </li>
                   </ul>
               </div>
           </div>

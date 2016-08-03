@@ -7,7 +7,7 @@ module.exports = {
         console.log('api', data)
         callBack(null, data.name)
       }).fail(function (jqXHR, textStatus, errorThrown) {
-
+        callBack(errorThrown, null)
         console.log('error', errorThrown)
       })
   },

@@ -3,6 +3,7 @@ var React = require('react')
 class Modala extends React.Component {
 
   render () {
+    console.log('aloha', this.props.project)
     return (
 
       <div className="col-sm-4 portfolio-item">

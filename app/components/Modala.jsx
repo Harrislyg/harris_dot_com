@@ -1,9 +1,11 @@
 var React = require('react')
+var Modal = require('Modal')
 
 class Modala extends React.Component {
 
   render () {
-    console.log('aloha', this.props.project)
+    console.log('object:', this.props.project)
+    console.log('index:', this.props.index)
     return (
 
       <div className="col-sm-4 portfolio-item">

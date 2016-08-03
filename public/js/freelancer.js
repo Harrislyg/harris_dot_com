@@ -4,6 +4,7 @@
     "use strict"; // Start of use strict
 
     // jQuery for page scrolling feature - requires jQuery Easing plugin
+
     $(document).on('click', '.page-scroll a', function(event) {
       console.log('scroll')
         var $anchor = $(this)

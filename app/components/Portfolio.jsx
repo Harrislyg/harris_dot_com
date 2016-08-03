@@ -36,7 +36,7 @@ class Portfolio extends React.Component {
     apiDotMe.getAllProjects((err, data) => {
       console.log('callback', data)
       this.setState({
-        portfolios: data.concat({})
+        portfolios: data.concat()
       })
     })
   }
@@ -70,7 +70,7 @@ class Portfolio extends React.Component {
       <About/>
       <Contact/>
       <Footer/>
-      <Modal/>
+      {this.state.portfolios.map((modal, i) => (<Modal project={modal} index={i+1} key={i}/>))}
 
       </div>
 

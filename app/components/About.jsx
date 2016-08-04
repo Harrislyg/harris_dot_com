@@ -13,10 +13,13 @@ class About extends React.Component {
               </div>
               <div className="row">
                   <div className="col-lg-4 col-lg-offset-2">
-                      <p>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.</p>
+                      <p>Full-Stack developer by day, sleeping by night. I have put pen to paper during design processes, worked with multiple developers, and also worn the entreprenuerial hat.</p>
                   </div>
                   <div className="col-lg-4">
-                      <p>Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</p>
+                      <p>I am an undergraduate at the National University of Singapore (NUS) and part of the NOC Silicon Valley program! Currently residing in San Francisco, CA. I am looking to further my career as a professional web developer.</p>
+                  </div>
+                  <div className="col-lg-4">
+                      <p>Take some time to look at my work, credentials, and if you're interested in helping me make things happen, let's get in touch.</p>
                   </div>
                   <div className="col-lg-8 col-lg-offset-2 text-center">
                       <a href="#contact" className="btn btn-lg btn-outline">

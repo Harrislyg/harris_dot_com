@@ -32,7 +32,7 @@ class Footer extends React.Component {
                       </div>
                       <div className="footer-col col-md-4">
                           <h3>About</h3>
-                          <p>Full-Stack Web Developer, created by <a href="https://generalassemb.ly/">GA Singapore</a>.</p>
+                          <p>Full-Stack Web Developer, nurtured by <a href="https://generalassemb.ly/">GA Singapore</a>.</p>
                       </div>
                   </div>
               </div>

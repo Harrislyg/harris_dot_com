@@ -33,7 +33,9 @@ class Modal extends React.Component {
                                       <strong><a href={this.props.project.github}> {this.props.project.github}</a>
                                       </strong>
                                   </li>
-                                  <li>Skillz:&nbsp;
+                                  <br />
+                                  <br />
+                                  <li>Skills:&nbsp;
                                     {this.props.project.skills.map((skill, i) => (<Skillz skill={skill} key={i} />))}
                                   </li>
                               </ul>

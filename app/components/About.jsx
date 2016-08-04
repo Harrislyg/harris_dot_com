@@ -18,7 +18,7 @@ class About extends React.Component {
                   <div className="col-lg-4">
                       <p>I am an undergraduate at the National University of Singapore (NUS) and part of the NOC Silicon Valley program! Currently residing in San Francisco, CA. Take some time to look at my work, credentials, and if you're interested in helping me make things happen, let's get in touch.</p>
                   </div>
-                  
+
                   <div className="col-lg-8 col-lg-offset-2 text-center">
                       <a href="#contact" className="btn btn-lg btn-outline">
                           <i className="fa fa-download"></i> Contact Me

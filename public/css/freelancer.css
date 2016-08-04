@@ -6,8 +6,32 @@
 body {
   font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   overflow-x: hidden;
-
 }
+
+#profileName {
+  text-align: center;
+  font-size: 200px;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+@media (max-width: 950px) {
+  #profileName {
+    font-size: 150px;
+  }
+}
+
+@media (max-width: 780px) {
+  #profileName {
+    font-size: 100px;
+  }
+}
+
+@media (max-width: 670px) {
+  #profileName {
+    font-size: 70px;
+  }
+}
+
 p {
   font-size: 20px;
 }

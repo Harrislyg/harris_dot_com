@@ -9,14 +9,14 @@ class Footer extends React.Component {
                   <div className="row">
                       <div className="footer-col col-md-4">
                           <h3>Location</h3>
-                          <p>3481 Melrose Place
-                              <br/>Beverly Hills, CA 90210</p>
+                          <p>Singapore / U.S.A
+                              <br/>San Francisco, CA 94101</p>
                       </div>
                       <div className="footer-col col-md-4">
-                          <h3>Around the Web</h3>
+                          <h3>Profiles</h3>
                           <ul className="list-inline">
                               <li>
-                                  <a href="#" className="btn-social btn-outline"><i className="fa fa-fw fa-facebook"></i></a>
+                                  <a href="https://www.facebook.com/harris.leow" className="btn-social btn-outline"><i className="fa fa-fw fa-facebook"></i></a>
                               </li>
                               <li>
                                   <a href="#" className="btn-social btn-outline"><i className="fa fa-fw fa-google-plus"></i></a>
@@ -25,16 +25,14 @@ class Footer extends React.Component {
                                   <a href="#" className="btn-social btn-outline"><i className="fa fa-fw fa-twitter"></i></a>
                               </li>
                               <li>
-                                  <a href="#" className="btn-social btn-outline"><i className="fa fa-fw fa-linkedin"></i></a>
+                                  <a href="https://sg.linkedin.com/in/harrisleow" className="btn-social btn-outline"><i className="fa fa-fw fa-linkedin"></i></a>
                               </li>
-                              <li>
-                                  <a href="#" className="btn-social btn-outline"><i className="fa fa-fw fa-dribbble"></i></a>
-                              </li>
+
                           </ul>
                       </div>
                       <div className="footer-col col-md-4">
-                          <h3>About Freelancer</h3>
-                          <p>Freelance is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.</p>
+                          <h3>About</h3>
+                          <p>Full-Stack Web Developer, created by <a href="https://generalassemb.ly/">GA Singapore</a>.</p>
                       </div>
                   </div>
               </div>
@@ -43,7 +41,7 @@ class Footer extends React.Component {
               <div className="container">
                   <div className="row">
                       <div className="col-lg-12">
-                          Copyright &copy; Your Website 2016
+                          Copyright &copy; Harris 2016
                       </div>
                   </div>
               </div>
@@ -52,5 +50,7 @@ class Footer extends React.Component {
     )
   }
 }
+
+var dribble = "<li><a href='#' className='btn-social btn-outline'><i className='fa fa-fw fa-dribbble'></i></a></li>"
 
 module.exports = Footer

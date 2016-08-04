@@ -13,7 +13,7 @@ class Header extends React.Component {
           <div className="container">
               <div className="row">
                   <div className="col-lg-12">
-                      <img className="img-responsive" src="img/profile.png" alt="" />
+                    <h1 id="profileName">Harris</h1>
                       <div className="intro-text">
                           <hr className="star-light"></hr>
                           <span className="skills">Web Developer - Graphic Artist - User Experience Designer</span>

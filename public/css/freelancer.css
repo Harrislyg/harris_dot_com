@@ -98,10 +98,10 @@ header {
   padding-left: 50px;
   text-align: center;
   background-color: #000;
-  background-image: url('../img/background_5.gif');
+  background-image: url('../img/background_7.jpg');
   background-repeat:no-repeat;
   background-size:cover;
-  background-position:center;
+  background-position-y: 25px;
   color: #fff;
 }
 header .container {

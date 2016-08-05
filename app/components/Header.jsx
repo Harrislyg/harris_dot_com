@@ -15,7 +15,7 @@ class Header extends React.Component {
                   <div className="col-lg-12">
                     <h1 id="profileName">Harris</h1>
                       <div className="intro-text">
-                          <hr className="star-light"></hr>
+                          <div id="githubIcon"><a href="https://github.com/Harrislyg" className="btn-social btn-outline"><i className="fa fa-fw fa-github"></i></a></div>
                           <span className="skills">Web Developer - Graphic Artist - User Experience Designer</span>
                       </div>
                   </div>

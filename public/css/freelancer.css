@@ -11,9 +11,15 @@ body {
   font-size: 60px;
 }
 #profileName {
+  line-height: 180px;
   text-align: center;
   font-size: 200px;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#githubIcon {
+  margin: 0;
+  padding: 0;
 }
 
 @media (max-width: 950px) {
@@ -95,13 +101,15 @@ hr.star-primary:after {
   margin: 0 auto;
 }
 header {
+  padding-top: 28px;
   padding-left: 50px;
   text-align: center;
   background-color: #000;
-  background-image: url('../img/background_7.jpg');
+  background-image: url('../img/background_5.gif');
   background-repeat:no-repeat;
   background-size:cover;
   background-position-y: 25px;
+
   color: #fff;
 }
 header .container {

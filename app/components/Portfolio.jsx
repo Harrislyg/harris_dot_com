@@ -45,7 +45,6 @@ class Portfolio extends React.Component {
       this.getProject()
   }
 
-
   render () {
     console.log('Hey', this.state.portfolios)
     return (

@@ -22,7 +22,7 @@ class Modal extends React.Component {
                           <div className="modal-body">
                               <h2>{this.props.project.title}</h2>
                               <hr className="star-primary"></hr>
-                              <img src={"img/portfolio/"+this.props.index+".png"} className="img-responsive img-centered" alt="" />
+                              <a href={this.props.project.links}><img src={"img/portfolio/"+this.props.index+".png"} className="img-responsive img-centered" alt="" /></a>
                               <p id="des">{this.props.project.description}</p>
                               <ul className="list-inline item-details">
                                   <li>Link:

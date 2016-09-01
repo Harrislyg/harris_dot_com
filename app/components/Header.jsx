@@ -13,10 +13,10 @@ class Header extends React.Component {
           <div className="container">
               <div className="row">
                   <div className="col-lg-12">
-                    <h1 id="profileName">Harris</h1>
+                    <div id="profileName"></div>
                       <div className="intro-text">
                           <div id="githubIcon"><a href="https://github.com/Harrislyg" className="btn-social btn-outline"><i className="fa fa-fw fa-github"></i></a></div>
-                          <span className="skills">Web Developer - Graphic Artist - User Experience Designer</span>
+                          <span className="skills">Web Developer - UX Designer</span>
                       </div>
                   </div>
               </div>

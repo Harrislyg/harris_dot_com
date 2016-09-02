@@ -16,7 +16,7 @@ class About extends React.Component {
                       <p>Full-Stack developer by day, sleeping by night. I have put pen to paper during design processes, worked with multiple developers, and also worn the entreprenuerial hat.</p>
                   </div>
                   <div className="col-lg-4">
-                      <p>I am an undergraduate at the National University of Singapore (NUS) and part of the NOC Silicon Valley program! Currently residing in San Francisco, CA. Take some time to look at my work, credentials, and if you're interested in helping me make things happen, let's get in touch.</p>
+                      <p>I am an undergraduate at the National University of Singapore (NUS) and currently onboard the NOC Silicon Valley program! Currently residing in San Francisco, CA. Take some time to look at my work, credentials, and if you're interested in helping me make things happen, let's get in touch.</p>
                   </div>
 
                   <div className="col-lg-8 col-lg-offset-2 text-center">

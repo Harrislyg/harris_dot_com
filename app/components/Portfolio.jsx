@@ -58,6 +58,7 @@ class Portfolio extends React.Component {
                     <br/>
                     <br/>
                       <h2>Portfolio</h2>
+                      <span>Click to project tabs to view</span>
                       <hr className="star-primary"></hr>
                   </div>
               </div>
